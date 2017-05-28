@@ -2,7 +2,7 @@
 const mongodb = require('mongodb');
 
 var connMongoDB = function() {
-  console.log('entrou na funcao de conexao');
+  // console.log('entrou na funcao de conexao');
   var db = new mongodb.Db(
     'got',
     new mongodb.Server(
